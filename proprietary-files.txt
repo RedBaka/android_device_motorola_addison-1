@@ -231,16 +231,12 @@ etc/firmware/cpp_firmware_v1_10_0.fw
 -framework/com.qti.snapdragon.sdk.display.jar
 -vendor/app/colorservice/colorservice.apk
 etc/permissions/com.qti.snapdragon.sdk.display.xml
-vendor/bin/mm-pp-dpps
-vendor/lib/libdisp-aba.so
-vendor/lib/libmm-disp-apis.so
-vendor/lib/libmm-qdcm.so
 vendor/lib/libscalar.so
-vendor/lib/libsdm-color.so
-vendor/lib/libsdm-diag.so
-vendor/lib/libsdm-disp-apis.so
-vendor/lib/libsdmextension.so
-vendor/lib/libsd_sdk_display.so
+vendor/lib/libsdm-color.so|fa907f8d480261fdb3b78057c7352bc1e3899a92
+vendor/lib/libsdm-diag.so|5169f31e832d19af78ac0045c725ce2d3f1da640
+vendor/lib/libsdm-disp-apis.so|72f6db2b249a47a6ac83d4dfc7d2e9f76b349920
+vendor/lib/libsdmextension.so|e52ca803e2e07dc675ea65974de55fa0d9e9dd88
+vendor/lib/libsd_sdk_display.so|23b1ef85654178da98e4f950d26736759cf069c1
 
 # DRM
 bin/qseecomd
@@ -249,14 +245,10 @@ vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so
 vendor/lib/libGPreqcancel.so
 vendor/lib/libGPreqcancel_svc.so
-vendor/lib/libGPTEE.so
-vendor/lib/libmm-hdcpmgr.so
 vendor/lib/liboemcrypto.so
 vendor/lib/libQSEEComAPI.so
 vendor/lib/librpmb.so
 vendor/lib/libssd.so
-vendor/lib/libwvdrm_L1.so
-vendor/lib/libWVStreamControlAPI_L1.so
 vendor/lib/mediadrm/libwvdrmengine.so
 
 # Fingerprint
@@ -269,15 +261,8 @@ vendor/lib/hw/gatekeeper.msm8953.so
 etc/flp.conf
 etc/gps.conf
 etc/sap.conf
-lib/hw/gps.default.so
-lib/libgnsspps.so
-lib/libgps.utils.so
 lib/libloc_api_v02.so
-lib/libloc_core.so
 lib/libloc_ds_api.so
-lib/libloc_eng.so
-lib/libloc_pla.so
-lib/libloc_stub.so
 vendor/lib/hw/flp.default.so
 vendor/lib/libflp.so
 vendor/lib/libgeofence.so
@@ -369,7 +354,6 @@ vendor/lib/libOmxWmaDec.so
 
 # Moto
 bin/batt_health
-bin/dbvc_atvc_property_set
 
 # NFC
 vendor/firmware/libpn548ad_fw.so
@@ -518,6 +502,3 @@ etc/wifi/WCNSS_qcom_wlan_nv_Argentina.bin:etc/firmware/wlan/prima/WCNSS_qcom_wla
 etc/wifi/WCNSS_qcom_wlan_nv_Brazil.bin:etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin
 etc/wifi/WCNSS_qcom_wlan_nv_India.bin:etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin
 etc/wifi/WCNSS_wlan_dictionary.dat:etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat
-
-# WiFi
-bin/ptt_socket_app
