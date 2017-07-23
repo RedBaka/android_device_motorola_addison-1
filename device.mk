@@ -148,10 +148,6 @@ PRODUCT_PACKAGES += \
     libgnsspps \
     gps.msm8953
 
-# IMS
-PRODUCT_PACKAGES += \
-    libshim_ims
-
 # IPA Manager
 PRODUCT_PACKAGES += \
     ipacm \
@@ -235,6 +231,7 @@ PRODUCT_PACKAGES += \
 # RIL
 PRODUCT_PACKAGES += \
     librmnetctl \
+    libshim_ril \
     libxml2
 
 # Sensors
