@@ -40,7 +40,6 @@ ro.qualcomm.bt.hci_transport=smd
 camera.disable_zsl_mode=1
 camera.display.umax=1920x1080
 camera.display.lmax=1280x720
-camera.hal1.packagelist=com.skype.raider,com.google.android.talk
 vidc.dec.downscalar_width=1920
 vidc.dec.downscalar_height=1088
 vidc.dec.disable.split.cpu=1
@@ -99,16 +98,6 @@ persist.data.mode=concurrent
 
 # Sensors
 ro.hardware.sensors=addison
-
-# USB
-ro.usb.mtp=0x2e82
-ro.usb.mtp_adb=0x2e76
-ro.usb.ptp=0x2e83
-ro.usb.ptp_adb=0x2e84
-ro.usb.bpt=0x2ee5
-ro.usb.bpt_adb=0x2ee6
-ro.usb.bpteth=0x2ee7
-ro.usb.bpteth_adb=0x2ee8
 
 # Vendor Extension
 ro.vendor.extension_library=libqti-perfd-client.so
